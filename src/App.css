@@ -1,0 +1,65 @@
+.body{
+          
+            display: flex;
+            width: 100%;
+            justify-content:start;
+/* position: absolute; */
+
+}
+
+.App{
+            max-width: 1500px;
+}
+
+/* content */
+.Content{
+            width:100%;
+            padding: 1rem;
+            
+}
+.Content h1{
+            text-align: center;
+            padding: 1rem;
+}
+
+@media only screen and (max-width: 767px){
+   aside{
+      z-index: 10;
+   }
+         .hide{
+          display: none;
+
+         }
+         .show{
+          display: block;
+          position:fixed;
+          top: 0;
+          width: 54%;
+         
+         }
+         .toglBox{
+            /* background-color: green; */
+            width: 100%;
+            text-align: end;
+  }
+         
+         }
+@media only screen and (min-width: 767px){
+          
+         aside{
+            z-index: 7;
+         }
+            #toglBtn{
+                        display: none;
+            }
+          
+         }
+
+
+#toglBtn{
+            border: none;
+            width: 3rem;
+            padding: .2rem;
+            font-size: 1.3rem;
+            background-color: orange;
+}

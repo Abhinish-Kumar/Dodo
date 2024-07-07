@@ -1,0 +1,17 @@
+.Content{
+            width: 100%;
+            padding: 1rem;
+            min-height: 100vh;
+            
+}
+.Content h1{
+            text-align: center;
+            padding: 1rem;
+            font-weight: 700;
+            color: #333131;
+}
+
+.Content p{
+            color: #333;
+}
+ 
