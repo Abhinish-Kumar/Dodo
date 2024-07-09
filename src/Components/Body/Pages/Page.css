@@ -1,0 +1,33 @@
+
+.page h1{
+            text-align: center;
+            padding: 1rem;
+            font-weight: 700;
+            color: #f41edb;
+            border: 1px solid rgb(0, 0, 0);
+            color: rgb(245, 23, 103);
+            margin-bottom: 1.5rem;
+            background-color: rgb(245, 23, 104);
+            color: white;
+            border-radius: 1rem;
+            font-size: 1.8rem;
+
+}
+
+.page p{
+            color: #333;
+            line-height: 1.5rem;
+}
+
+
+.page h3{
+            color: rgb(250, 158, 10);
+            margin-top: 1rem;
+            margin-bottom: .5rem;
+}
+.page h2{
+            color: rgb(235, 14, 69);
+            margin-top: 1rem;
+}
+
+

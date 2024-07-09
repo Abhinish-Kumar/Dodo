@@ -8,8 +8,13 @@ function Sidebar({ togle }) {
         <Link to={"/"}>
           <li>Intro</li>
         </Link>
+        <Link to={"/installation"}>
+          <li>Install Node js</li>
+        </Link>
+        <Link to={"/chapter1"}>
+          <li> First server</li>
+        </Link>
 
-        <li>Intsdf</li>
         <li>Intro</li>
         <li>Intro</li>
         <li>Intro</li>

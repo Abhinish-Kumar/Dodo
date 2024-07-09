@@ -4,6 +4,7 @@ aside{
             /* background-image: linear-gradient(13deg,#2558db,#2d1609,#2d1609); */
 
             width: 20%;
+            /* min-width: 20%; */
             height: 100vh;
             position: relative;
             top: 0;
@@ -13,6 +14,7 @@ aside{
             /* z-index: 7; */
             color: rgb(0, 0, 0);
             scrollbar-width: none;
+            /* border-right: 1px solid pink; */
 }
 aside ul li{
             word-break: break-all;
@@ -20,6 +22,7 @@ aside ul li{
             list-style: none;
             border-bottom: 1px solid grey;
            
+
 
 }
 aside ul li:hover{
@@ -29,3 +32,7 @@ aside ul li:hover{
 
 }
 
+aside ul a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}

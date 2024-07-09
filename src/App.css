@@ -9,6 +9,7 @@
 
 .App{
             max-width: 1500px;
+            width: 100%;
 }
 
 /* content */
@@ -42,15 +43,24 @@
             width: 100%;
             text-align: end;
   }
+  .page{
+   padding-left: .5rem;
+   padding-right: .5rem;
+  }
          
          }
 @media only screen and (min-width: 767px){
           
          aside{
             z-index: 7;
+
          }
             #toglBtn{
                         display: none;
+            }
+            .page{
+               padding-right:1.5rem;
+               padding-left:1.5rem;
             }
           
          }
