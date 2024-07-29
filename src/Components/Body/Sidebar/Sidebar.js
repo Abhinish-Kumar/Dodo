@@ -1,9 +1,9 @@
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
 
-function Sidebar({ togle }) {
+function Sidebar({ togle, onClickTogle }) {
   return (
-    <aside className={togle}>
+    <aside className={togle} onClick={onClickTogle}>
       <ul>
         <Link to={"/"}>
           <li>Intro</li>

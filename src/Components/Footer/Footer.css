@@ -7,7 +7,10 @@
             color: #fffffe;
             padding-top: 2rem;
             padding-bottom: 2rem;
+           
+
 }
+
 
 .fcontent{
             display: flex;
@@ -72,17 +75,18 @@ footer ul{
             justify-content: center;
             gap: 2rem;
             margin-top: 1.5rem;
+            
 }
 
 .logo{
             width: 2.3rem;
-           
+           transition:linear;
             filter: drop-shadow(0rem 0rem 3px rgb(243, 148, 16));
 }
 .logo:hover{
-            width: 2.5rem;
+            transform:scale(1.2);
            
-            filter: drop-shadow(0rem 0rem 8px rgb(74, 236, 16));
+            filter: drop-shadow(0rem 0rem 8px rgb(236, 16, 152));
 }
 
 .logo .github{

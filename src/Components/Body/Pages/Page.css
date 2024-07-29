@@ -16,9 +16,10 @@
 
 .page p{
             color: #333;
-            line-height: 1.5rem;
+            line-height:2rem;
+            letter-spacing:.1rem;
+            word-spacing: .1rem;
 }
-
 
 .page h3{
             color: rgb(250, 158, 10);
@@ -28,6 +29,8 @@
 .page h2{
             color: rgb(235, 14, 69);
             margin-top: 1rem;
+            margin-bottom: .5rem;
+            padding: 1rem 1rem 1rem 0;
 }
 
 

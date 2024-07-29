@@ -9,7 +9,7 @@ function Content() {
     <div className="Content">
       <Routes>
         {/* <Intro /> */}
-        <Route path="" Component={() => <Intro />} />
+        <Route path="/" Component={() => <Intro />} />
         <Route path="/installation" Component={() => <Install />} />
         <Route path="/chapter1" Component={() => <Chapter1 />} />
       </Routes>

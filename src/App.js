@@ -25,8 +25,8 @@ function App() {
         </button>
       </div>
       <div className="body">
-        <Sidebar togle={state} />
-        
+        <Sidebar togle={state} onClickTogle={togleFunction} />
+
         <Content />
       </div>
 
